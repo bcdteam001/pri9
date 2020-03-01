@@ -32,9 +32,9 @@ Section: Plugins
 Tag: role::hacker, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
 Filename: ./Debs/KidsDevInfo31.deb
 Size: 19328
-MD5sum: c2cb96d87baf1d42c8ac7b88a3483ff8
+MD5sum: 8c8a9ce49b69a4198e8a620f2d93540b
 Depends: mobilesubstrate, preferenceloader, openssh, applist
-Conflicts: firmware (>= 10.0)
+Conflicts: firmware (<< 10.0)
 
 Package: com.kidsprivate.jailbreakbypass
 Name: JailBreakByPass 1.2.1
