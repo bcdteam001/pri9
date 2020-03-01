@@ -1,0 +1,213 @@
+Package: com.privatepro.kidsprodaemon
+Name: KidsPro v9
+Version: 9.0.41
+Architecture: iphoneos-arm
+Author: Tuệ
+Maintainer: Dev by Tuệ
+Section: System
+Tag: role::hacker, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Filename: ./Debs/KidsAutoPro9.41.deb
+Size: 1715186
+MD5sum: 610c9bd3a458b6c3dd0eb1efff6545d4
+Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.kidsprivate.kidsrestore, com.kidsauto.locationchanger, com.privatepro.kidsdeviceinfo
+Conflicts: com.rbt.useragentchanger,com.autopear.installipa
+
+Package: com.kidsprivate.kidsrestore
+Name: KidsRestore
+Version: 1.0-24
+Architecture: iphoneos-arm
+Maintainer: Dev by Tuệ
+Section: Utilities
+Filename: ./Debs/KidsRestore.deb
+Size: 100520
+MD5sum: 6d2b2cd1452a0a9b347bc7266344fd50
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+
+Package: com.privatepro.kidsdeviceinfo
+Name: KidsDeviceInfo
+Version: 0.31
+Architecture: iphoneos-arm
+Maintainer: Dev by Tuệ
+Section: Plugins
+Tag: role::hacker, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Filename: ./Debs/KidsDevInfo31.deb
+Size: 19328
+MD5sum: c2cb96d87baf1d42c8ac7b88a3483ff8
+Depends: mobilesubstrate, preferenceloader, openssh, applist
+Conflicts: firmware (>= 10.0)
+
+Package: com.kidsprivate.jailbreakbypass
+Name: JailBreakByPass 1.2.1
+Version: 1.2.1
+Architecture: iphoneos-arm
+Maintainer: Dev by Tuệ
+Section: Tweaks
+Filename: ./Debs/JBByPass121Pri.deb
+Size: 18264
+MD5sum: 1c3512b3e42d43a5e3096be4c65bb93f
+Depends: mobilesubstrate
+Conflicts: com.nablac0d3.sslkillswitch,com.nablac0d3.sslkillswitch2,com.kidsauto.sslkillswitch,com.isecpartners.nabla.sslkillswitch
+
+Package: com.kidsauto.locationchanger
+Name: LocationFaker(10,11)
+Version: 8.0
+Architecture: iphoneos-arm
+Author: Cunstuck <repo@hackyouriphone.org>
+Description: change your location using a map
+Maintainer: HackYouriPhone <repo@hackyouriphone.org>
+Section: Tweaks
+Filename: ./Debs/LocationFaker1011.deb
+Size: 636612
+MD5sum: ed520e2887f755ba235519cee9950856
+Depends: firmware, mobilesubstrate
+Conflicts: org.thebigboss.locationchangerx
+
+Package: ch.ringwald.hidsupport
+Name: Hid-Support
+Version: 1.4.3
+Architecture: iphoneos-arm
+Maintainer: Matthias Ringwald
+Author: Matthias Ringwald
+Section: Plugins
+Tag: role::developer
+Filename: ./Debs/HidSupport.deb
+Size: 43542
+MD5sum: 5e6361dd4ad43dc79469db8861480d67
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap
+
+Package: jp.ashikase.mousesupport
+Name: MouseSupport
+Version: 1:2.1
+Architecture: iphoneos-arm
+Description: Pointer and external input extension!!!
+Section: System
+Tag: role::hacker
+Filename: ./Debs/MouseSupport.deb
+Size: 24690
+MD5sum: 746e24eb06def1cd4229384a213765f1
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap, preferenceloader, applist, ch.ringwald.hidsupport (>= 1.3.3)
+
+Package: com.kidsauto.sslkillswitch2
+Name: SSLKillSwitch 2
+Architecture: iphoneos-arm
+Version: 2.0.2
+Description: Blackbox tool to disable SSL certificate validation - including certificate pinning - within iOS and OS X Apps.
+Maintainer: Alban Diquet <nabla.c0d3@gmail.com>
+Author: Alban Diquet <nabla.c0d3@gmail.com>
+Section: Tweaks
+Filename: ./Debs/SslKill_812.deb
+Size: 10614
+MD5sum: ac6507e87c89383090384f9fd3a21d86
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.nablac0d3.sslkillswitch,com.nablac0d3.sslkillswitch2,com.isecpartners.nabla.sslkillswitch
+
+Package: com.hackyouriphone.upscale
+Name: Upscale
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Change Device Resolution
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=upscale
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=upscale
+Maintainer: HackYouriPhone <repo@hackyouriphone.org>
+Author: bd452, julioverne <repo@hackyouriphone.org>
+Section: Tweaks
+Filename: ./Debs/UpScale.deb
+Size: 19962
+MD5sum: baf3c1f1492978f9b9bda435f323156c
+Depends: mobilesubstrate
+Conflicts: com.bd452.upscale
+
+Package: com.ryleyangus.libertylite
+Name: Liberty Lite
+Architecture: iphoneos-arm
+Version: 0.2.10
+Description: A (lite) general purpose jailbreak detection bypass patch. Use the Liberty entry in the Settings app to block (most) apps from detecting your jailbreak. Disabling Substrate/Substitute is not supported, so certain apps (PayPal, HSBC HK) will still be problematic.
+Maintainer: Ryley Angus
+Author: Ryley Angus
+Section: Tweaks
+Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
+Filename: ./Debs/LibertyLite8.deb
+Size: 78350
+MD5sum: 94702173d002644394b5e245a2479963
+Depends: mobilesubstrate,preferenceloader,applist,firmware (>= 11.0)
+Conflicts: com.ryleyangus.liberty
+
+Package: com.kidsauto.kidsbypass
+Name: KidsByPass
+Version: 2.17
+Architecture: iphoneos-arm
+Description: By Pass Jailbreak Detect
+Maintainer: Internet
+Author: Internet
+Section: Tweaks
+Filename: ./Debs/KidsByPass2.17.deb
+Size: 185512
+MD5sum: ea03e09bc14e17ba5a050baefd319c6f
+Depends: mobilesubstrate, applist, preferenceloader, com.rpetrich.rocketbootstrap, ws.hbang.common
+Conflicts: com.ryleyangus.liberty, com.ryleyangus.libertylite, com.kidsauto.xcon, com.kidsauto.jailprotect, com.kidsauto.kidsdaemon (<< 8.3)
+
+Package: com.kidsfunny.appsyncunified
+Name: AppSync Unified
+Version: 70.0
+Architecture: iphoneos-arm
+Replaces: us.hackulo.appsync50
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Linus Yang, Karen/あけみ <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Homepage: https://cydia.akemi.ai/
+Provides: appsync
+Section: Utilities
+Filename: ./Debs/Appsync.deb
+Size: 64056
+MD5sum: 5e9065e02dbfcd4bffb04f6fcee8c1b6
+Depends: firmware (>= 5.0), firmware (<= 13.3.1), mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, science.xnu.substitute
+
+Package: com.kidsauto.icleaner
+Name: iCleaner
+Version: 7.7.5
+Architecture: iphoneos-arm
+Description: Dọn rác và tối ưu hệ thống iPhone Jailbreak
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Ivano Bilenchi <support@ib-soft.net>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=icleanerDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=icleanerDp
+Icon: file:///Applications/iCleaner.app/Icon.png
+dev: exilecom
+Tag: purpose::uikit, compatible::ios10, compatible::ios11, compatible::ios12
+Section: Utilities
+Filename: ./Debs/icleaner775.deb
+Size: 9872624
+MD5sum: e55286a7f39503142579f145fe60a4ed
+Pre-Depends: firmware (>= 4.0), apt | apt7, findutils, shell-cmds
+Conflicts: org.altervista.exilecom.icleaner
+
+Package: com.kidsprivate.remover103
+Name: Remover 10.2
+Version: 1.0.3
+Architecture: iphoneos-arm
+Description: A Cydia Eraser replacement (iOS 10-10.2) - The icon is made by Dennis Bednarz.
+Maintainer: pwn20wnd
+Author: pwn20wnd & coolstarorg
+Sponsor: GitHub.com <github.com>
+Section: Utilities
+Tag: role::hacker, compatible::ios10
+Filename: ./Debs/Remover103.deb
+Size: 198306
+MD5sum: 2316f0aeecb6f9547268e4c21e2bb04a
+Depends: firmware (>= 10.0)
+Conflicts: firmware (>= 10.2.1)
+
+Package: me.jjolano.alertdismiss
+Name: AlertDismiss
+Version: 1.0.4-18
+Architecture: iphoneos-arm
+Description: Add a Force Dismiss button to any UIAlertController.
+Maintainer: jjolano
+Author: jjolano
+Section: Utilities
+Filename: ./Debs/BlockAlert104.deb
+Size: 18810
+MD5sum: 1fafd43d9074291b4b7d7e8af66b1822
+Depends: mobilesubstrate, preferenceloader, firmware (>= 8.0)

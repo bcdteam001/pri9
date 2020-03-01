@@ -1,0 +1,11 @@
+Origin: KidsFunny
+Label: KidsFunny
+Suite: stable
+Version: 9.0
+Codename: iOS
+Architectures: iphoneos-arm
+Components: main
+Description: KidsFunny 9.0 iOS
+MD5Sum:
+ f5c64ad002244d057f89dee6cf8efbeb 8083 Packages
+ b4143bf2ff5ab7d9b8a9bd2bdc61955b 2953 Packages.bz2
