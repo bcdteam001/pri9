@@ -19,8 +19,8 @@ Architecture: iphoneos-arm
 Maintainer: Dev by Tuệ
 Section: Utilities
 Filename: ./Debs/KidsRestore.deb
-Size: 100520
-MD5sum: 6d2b2cd1452a0a9b347bc7266344fd50
+Size: 100336
+MD5sum: 21d6abf82cd694e884807e491c263c7d
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common
 
 Package: com.privatepro.kidsdeviceinfo
@@ -33,6 +33,19 @@ Tag: role::hacker, compatible::ios10, compatible::ios11, compatible::ios12, comp
 Filename: ./Debs/KidsDevInfo31.deb
 Size: 19328
 MD5sum: 8c8a9ce49b69a4198e8a620f2d93540b
+Depends: mobilesubstrate, preferenceloader, openssh, applist
+Conflicts: firmware (<< 10.0)
+
+Package: com.privatepro.kidsdeviceinfo
+Name: KidsDeviceInfo
+Version: 0.78
+Architecture: iphoneos-arm
+Maintainer: Dev by Tuệ
+Section: Plugins
+Tag: role::hacker, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Filename: ./Debs/KidsDevInfo0.78.deb
+Size: 24100
+MD5sum: facb0e06f78a95f4d64ce758fb9baf80
 Depends: mobilesubstrate, preferenceloader, openssh, applist
 Conflicts: firmware (<< 10.0)
 
