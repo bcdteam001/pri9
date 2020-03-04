@@ -6,9 +6,23 @@ Author: Tuệ
 Maintainer: Dev by Tuệ
 Section: System
 Tag: role::hacker, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
-Filename: ./Debs/KidsAutoPro9.41.deb
+Filename: ./Debs/KidsAutoPro9.0.41.deb
 Size: 1715186
 MD5sum: 610c9bd3a458b6c3dd0eb1efff6545d4
+Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.kidsprivate.kidsrestore, com.kidsauto.locationchanger, com.privatepro.kidsdeviceinfo
+Conflicts: com.rbt.useragentchanger,com.autopear.installipa
+
+Package: com.privatepro.kidsprodaemon
+Name: KidsPro v9
+Version: 9.1.4
+Architecture: iphoneos-arm
+Author: Tuệ
+Maintainer: Dev by Tuệ
+Section: System
+Tag: role::hacker, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Filename: ./Debs/KidsAutoPro9.1.4.deb
+Size: 1715708
+MD5sum: b59ddf2f1c2fd017740a1a6dcdeba109
 Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.kidsprivate.kidsrestore, com.kidsauto.locationchanger, com.privatepro.kidsdeviceinfo
 Conflicts: com.rbt.useragentchanger,com.autopear.installipa
 
@@ -49,6 +63,19 @@ MD5sum: facb0e06f78a95f4d64ce758fb9baf80
 Depends: mobilesubstrate, preferenceloader, openssh, applist
 Conflicts: firmware (<< 10.0)
 
+Package: com.privatepro.kidsdeviceinfo
+Name: KidsDeviceInfo
+Version: 1.0-88
+Architecture: iphoneos-arm
+Maintainer: Dev by Tuệ
+Section: Plugins
+Tag: role::hacker, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Filename: ./Debs/KidsDevInfo0.88.deb
+Size: 23294
+MD5sum: a3e5292b0f825244ef3f902aaba73acd
+Depends: mobilesubstrate, preferenceloader, openssh, applist
+Conflicts: firmware (<< 10.0)
+
 Package: com.kidsprivate.jailbreakbypass
 Name: JailBreakByPass 1.2.1
 Version: 1.2.1
@@ -58,6 +85,18 @@ Section: Tweaks
 Filename: ./Debs/JBByPass121Pri.deb
 Size: 18264
 MD5sum: 1c3512b3e42d43a5e3096be4c65bb93f
+Depends: mobilesubstrate
+Conflicts: com.nablac0d3.sslkillswitch,com.nablac0d3.sslkillswitch2,com.kidsauto.sslkillswitch,com.isecpartners.nabla.sslkillswitch
+
+Package: com.kidsprivate.jailbreakbypass
+Name: JailBreakByPass
+Version: 1.3
+Architecture: iphoneos-arm
+Maintainer: Dev by Tuệ
+Section: Tweaks
+Filename: ./Debs/JBByPass1.3.deb
+Size: 16146
+MD5sum: 59def33c7bbcb44389bff44a0d8b829d
 Depends: mobilesubstrate
 Conflicts: com.nablac0d3.sslkillswitch,com.nablac0d3.sslkillswitch2,com.kidsauto.sslkillswitch,com.isecpartners.nabla.sslkillswitch
 
@@ -214,13 +253,13 @@ Conflicts: firmware (>= 10.2.1)
 
 Package: me.jjolano.alertdismiss
 Name: AlertDismiss
-Version: 1.0.4-18
+Version: 1.0.4-19
 Architecture: iphoneos-arm
 Description: Add a Force Dismiss button to any UIAlertController.
 Maintainer: jjolano
 Author: jjolano
 Section: Utilities
-Filename: ./Debs/BlockAlert104.deb
-Size: 18810
-MD5sum: 1fafd43d9074291b4b7d7e8af66b1822
+Filename: ./Debs/BlockAlert1.0.4-19.deb
+Size: 19982
+MD5sum: 9820a2040e1b098de7ce3e97b9eebbab
 Depends: mobilesubstrate, preferenceloader, firmware (>= 8.0)
