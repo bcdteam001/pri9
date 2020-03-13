@@ -40,6 +40,20 @@ MD5sum: 8d5480b64dc1a030cda9c02ef3bef79b
 Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.kidsprivate.kidsrestore, com.kidsauto.locationchanger, com.privatepro.kidsdeviceinfo
 Conflicts: com.rbt.useragentchanger,com.autopear.installipa
 
+Package: com.privatepro.kidsprodaemon
+Name: KidsPro v9
+Version: 9.1.12
+Architecture: iphoneos-arm
+Author: Tuệ
+Maintainer: Dev by Tuệ
+Section: System
+Tag: role::hacker, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Filename: ./Debs/KidsAutoPro9.1.12.deb
+Size: 1777334
+MD5sum: 437bbfb6852a63db37e509621b905607
+Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.kidsprivate.kidsrestore, com.kidsauto.locationchanger, com.privatepro.kidsdeviceinfo
+Conflicts: com.rbt.useragentchanger,com.autopear.installipa
+
 Package: com.kidsprivate.kidsrestore
 Name: KidsRestore
 Version: 1.0-24
@@ -90,6 +104,33 @@ MD5sum: 92b27a579717c25e07e1cb760dd65368
 Depends: mobilesubstrate, preferenceloader, openssh, applist
 Conflicts: firmware (<< 10.0)
 
+Package: com.privatepro.kidsdeviceinfo
+Name: KidsDeviceInfo
+Version: 1.0-122
+Architecture: iphoneos-arm
+Maintainer: Dev by Tuệ
+Section: Plugins
+Tag: role::hacker, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Filename: ./Debs/KidsDevInfo1.0.122.deb
+Size: 34174
+MD5sum: b2ba3be3f0cfceb030b856ccb50b031c
+Depends: mobilesubstrate, preferenceloader, openssh, applist
+Conflicts: firmware (<< 10.0)
+
+Package: com.privatepro.mobilegestalt
+Name: Hooked MobileGestalt
+Version: 1.0-2
+Architecture: iphoneos-arm
+Description: Tweak for faking mobile gestalt dylib
+Author: Dev by Tuệ
+Maintainer: Dev by Tuệ
+Section: Tweaks
+Filename: ./Debs/KidsHookPro1.0.2.deb
+Size: 17868
+MD5sum: 3bddf605deb339de629641dee20da98b
+Depends: mobilesubstrate
+Conflicts: com.privatepro.kidsdeviceinfo (<< 1.0-122)
+
 Package: com.kidsprivate.jailbreakbypass
 Name: JailBreakByPass 1.2.1
 Version: 1.2.1
@@ -104,13 +145,13 @@ Conflicts: com.nablac0d3.sslkillswitch,com.nablac0d3.sslkillswitch2,com.kidsauto
 
 Package: com.kidsprivate.jailbreakbypass
 Name: JailBreakByPass
-Version: 1.3
+Version: 1.3.1
 Architecture: iphoneos-arm
 Maintainer: Dev by Tuệ
 Section: Tweaks
-Filename: ./Debs/JBByPass1.3.deb
-Size: 16146
-MD5sum: 59def33c7bbcb44389bff44a0d8b829d
+Filename: ./Debs/JailbreakByPass1.3.deb
+Size: 15658
+MD5sum: 77941ab73558f25d07ebffc7ae1744d0
 Depends: mobilesubstrate
 Conflicts: com.nablac0d3.sslkillswitch,com.nablac0d3.sslkillswitch2,com.kidsauto.sslkillswitch,com.isecpartners.nabla.sslkillswitch
 
@@ -198,20 +239,6 @@ MD5sum: 94702173d002644394b5e245a2479963
 Depends: mobilesubstrate,preferenceloader,applist,firmware (>= 11.0)
 Conflicts: com.ryleyangus.liberty
 
-Package: com.kidsauto.kidsbypass
-Name: KidsByPass
-Version: 2.17
-Architecture: iphoneos-arm
-Description: By Pass Jailbreak Detect
-Maintainer: Internet
-Author: Internet
-Section: Tweaks
-Filename: ./Debs/KidsByPass2.17.deb
-Size: 185512
-MD5sum: ea03e09bc14e17ba5a050baefd319c6f
-Depends: mobilesubstrate, applist, preferenceloader, com.rpetrich.rocketbootstrap, ws.hbang.common
-Conflicts: com.ryleyangus.liberty, com.ryleyangus.libertylite, com.kidsauto.xcon, com.kidsauto.jailprotect, com.kidsauto.kidsdaemon (<< 8.3)
-
 Package: com.kidsfunny.appsyncunified
 Name: AppSync Unified
 Version: 70.0
@@ -276,4 +303,17 @@ Section: Utilities
 Filename: ./Debs/BlockAlert1.0.4-19.deb
 Size: 19982
 MD5sum: 9820a2040e1b098de7ce3e97b9eebbab
+Depends: mobilesubstrate, preferenceloader, firmware (>= 8.0)
+
+Package: me.jjolano.alertdismiss
+Name: AlertDismiss
+Version: 1.0.4-20
+Architecture: iphoneos-arm
+Description: Block Alert Battery, iTune,...!!!
+Maintainer: jjolano
+Author: jjolano
+Section: Utilities
+Filename: ./Debs/BlockAlert104.20.deb
+Size: 20040
+MD5sum: 88e01996b0d0e5efe7c45bcf9a36940d
 Depends: mobilesubstrate, preferenceloader, firmware (>= 8.0)
