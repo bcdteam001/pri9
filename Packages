@@ -145,6 +145,20 @@ MD5sum: 08f4b28d969b6760b1fb058b33a37d44
 Depends: mobilesubstrate
 Conflicts: com.privatepro.kidsdeviceinfo (= 1.0-116), firmware (<< 10.0)
 
+Package: com.privatepro.mobilegestalt
+Name: Hooked MobileGestalt
+Version: 1.0-27
+Architecture: iphoneos-arm
+Description: Tweak for faking mobile gestalt dylib
+Author: Dev by Tuệ
+Maintainer: Dev by Tuệ
+Section: Tweaks
+Filename: ./Debs/HookMobileGestalt1.0-27.deb
+Size: 18252
+MD5sum: b46e6f83f3af098236248575fdb646e5
+Depends: mobilesubstrate
+Conflicts: com.privatepro.kidsdeviceinfo (= 1.0-116), firmware (<< 10.0)
+
 Package: com.kidsprivate.jailbreakbypass
 Name: JailBreakByPass 1.2.1
 Version: 1.2.1
