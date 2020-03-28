@@ -54,6 +54,21 @@ MD5sum: 437bbfb6852a63db37e509621b905607
 Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.kidsprivate.kidsrestore, com.kidsauto.locationchanger, com.privatepro.kidsdeviceinfo
 Conflicts: com.rbt.useragentchanger,com.autopear.installipa
 
+Package: com.privatepro.kidsprodaemon
+Name: KidsPro v9
+Version: 9.1.13
+Architecture: iphoneos-arm
+Description: Build 28/03/2020 - No SSL Kill, debug 1.0-13
+Author: Tuệ
+Maintainer: Dev by Tuệ
+Section: System
+Tag: role::hacker, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Filename: ./Debs/KidsPro9.1.13.deb
+Size: 1766696
+MD5sum: 01926f338759193c11eac578256ce985
+Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.kidsprivate.kidsrestore, com.kidsauto.locationchanger, com.privatepro.kidsdeviceinfo
+Conflicts: com.rbt.useragentchanger,com.autopear.installipa
+
 Package: com.kidsprivate.kidsrestore
 Name: KidsRestore
 Version: 1.0-24
