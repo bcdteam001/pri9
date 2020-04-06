@@ -71,16 +71,16 @@ Conflicts: com.rbt.useragentchanger,com.autopear.installipa
 
 Package: com.privatepro.kidsprodaemon
 Name: KidsPro v9
-Version: 9.1.23
+Version: 9.1.24
 Architecture: iphoneos-arm
-Description: Build 23/04/2020 - News Verify Method, debug 1.0-23
+Description: Private Build 07/04/2020 - News Verify Method, debug 1.0-24
 Author: Tuệ
 Maintainer: Dev by Tuệ
 Section: System
 Tag: role::hacker, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
-Filename: ./Debs/KidsPro9.1.23.deb
-Size: 1768790
-MD5sum: 9a9cad9a3d2c3c96f3d6420e24ce2180
+Filename: ./Debs/KidsPro9.1.24.deb
+Size: 1768686
+MD5sum: 841c26184ca645cda5e3ff53fc092708
 Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.kidsauto.locationchanger, com.privatepro.kidsdeviceinfo
 Conflicts: com.rbt.useragentchanger,com.autopear.installipa
 
