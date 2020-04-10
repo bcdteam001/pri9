@@ -84,6 +84,21 @@ MD5sum: 476ada2d2ea3a1e58ffcc80bd405282a
 Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.privatepro.kidsdeviceinfo
 Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger
 
+Package: com.privatepro.kidsprodaemon
+Name: KidsPro v9
+Version: 9.2-11
+Architecture: iphoneos-arm
+Description: Private Build 10/04 - Up to 1024 Free Memory, Up Time Sleep input text to 99999 ms debug 1.0-11
+Author: Tuệ
+Maintainer: Dev by Tuệ
+Section: System
+Tag: role::hacker, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Filename: ./Debs/KidsPro9.2-11.deb
+Size: 1774076
+MD5sum: 050fa201d3ba36fe819a29247b3c8a68
+Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.privatepro.kidsdeviceinfo
+Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger
+
 Package: com.kidsautopro.kidsautosetting
 Name: KidsAutoSetting
 Version: 1.0-1
