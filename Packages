@@ -71,6 +71,21 @@ MD5sum: 53d921053e53be7613b60f25d4cbeef9
 Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.privatepro.kidsdeviceinfo
 Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger
 
+Package: com.privatepro.kidsprodaemon
+Name: KidsPro v9
+Version: 9.2-17
+Architecture: iphoneos-arm
+Description: Build 22/04 - Update Free Memory u0-Checkra1,\nUp Time Sleep input text to >130k ms\nDebug 1.0-17
+Author: Tuệ
+Maintainer: Dev by Tuệ
+Section: System
+Tag: role::hacker, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Filename: ./Debs/KidsPro9.2-17.deb
+Size: 1774380
+MD5sum: e54951e8fc4462023062375cb8f84cf8
+Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.privatepro.kidsdeviceinfo
+Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger
+
 Package: com.kidsautopro.kidsautosetting
 Name: KidsAutoSetting
 Version: 1.0-1
@@ -358,15 +373,15 @@ Conflicts: firmware (>= 10.2.1)
 
 Package: me.jjolano.alertdismiss
 Name: AlertDismiss
-Version: 1.0.4-20
+Version: 1.0.4-21
 Architecture: iphoneos-arm
 Description: Block Alert Battery, iTune,...!!!
 Maintainer: jjolano
 Author: jjolano
 Section: Utilities
-Filename: ./Debs/BlockAlert104.20.deb
-Size: 20040
-MD5sum: 88e01996b0d0e5efe7c45bcf9a36940d
+Filename: ./Debs/BlockAlert104.21.deb
+Size: 19914
+MD5sum: 6b6f6af57e834378c209540d412187ce
 Depends: mobilesubstrate, preferenceloader, firmware (>= 8.0)
 
 Package: com.pulandres.safestdn
