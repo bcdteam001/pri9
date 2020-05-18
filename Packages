@@ -73,16 +73,16 @@ Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locatio
 
 Package: com.privatepro.kidsprodaemon
 Name: KidsPro v9
-Version: 9.2-17
+Version: 9.2-18
 Architecture: iphoneos-arm
-Description: Build 22/04 - Update Free Memory u0-Checkra1,\nUp Time Sleep input text to >130k ms\nDebug 1.0-17
+Description: Build 16/05 - Update Free Memory u0-Checkra1,\nUp Time Sleep input text to 50k ms\nDebug 1.0-18 (16/05/2020)
 Author: Tuệ
 Maintainer: Dev by Tuệ
 Section: System
 Tag: role::hacker, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
-Filename: ./Debs/KidsPro9.2-17.deb
-Size: 1774380
-MD5sum: e54951e8fc4462023062375cb8f84cf8
+Filename: ./Debs/KidsPro9.2.18.deb
+Size: 1774408
+MD5sum: 68d5b05508a05abcaaff444efb1e64a0
 Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.privatepro.kidsdeviceinfo
 Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger
 
