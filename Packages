@@ -15,17 +15,29 @@ Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locatio
 
 Package: com.kidsfunny.setting
 Name: KidsFunny Setting
-Version: 1.1Package: com.kidsfunny.setting
-Name: KidsFunny Setting
-Version: 1.1
+Version: 1.1.1
 Architecture: iphoneos-arm
-Description: Utilities to support Pro!!!
+Description: Utilities to support Pro u0 400 Memory!!!
 Author: Tuệ Mobi
 Maintainer: Tuệ Mobi
 Section: Tweaks
-Filename: ./Debs/KidsSetting1.1.deb
-Size: 48716
-MD5sum: 817a62b3dfd36d149fd17819cffd3ce0
+Filename: ./Debs/KidsSetting1.1.1.deb
+Size: 48292
+MD5sum: 0406911645c6622efbc1c4a6afc600b1
+Depends: mobilesubstrate, ws.hbang.common
+Conflicts: com.kidsprivate.kidsrestore, com.kidsauto.sslkillswitch2
+
+Package: com.kidsfunny.setting
+Name: KidsFunny Setting
+Version: 1.2
+Architecture: iphoneos-arm
+Description: Utilities to support Pro u0 400 - Ra1n 896 Memory!!!
+Author: Tuệ Mobi
+Maintainer: Tuệ Mobi
+Section: Tweaks
+Filename: ./Debs/KidsSetting1.2.deb
+Size: 48380
+MD5sum: ab18bf690e682ce2309ef864686d2951
 Depends: mobilesubstrate, ws.hbang.common
 Conflicts: com.kidsprivate.kidsrestore, com.kidsauto.sslkillswitch2
 
