@@ -7,37 +7,38 @@ Author: Tuệ Mobi
 Maintainer: Tuệ Mobi
 Section: System
 Tag: role::hacker, compatible::ios11, compatible::ios12, compatible::ios13
-Filename: ./Debs/KidsAutoPriv_9.deb
+Filename: ./Debs/KPriv_9.deb
 Size: 374316
 MD5sum: d2535c55c13ea5a7cebdc74373e0f245
 Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.pulandres.safestdn
 Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.privatepro.kidsdeviceinfo,com.privatepro.mobilegestalt,ch.ringwald.hidsupport,jp.ashikase.mousesupport
 
-Package: com.kidsfunny.setting
-Name: KidsFunny Setting
-Version: 1.1.1
+Package: com.kidsfunny.prodaemon
+Name: Pro v9
+Version: 9.5-129
 Architecture: iphoneos-arm
-Description: Utilities to support Pro u0 400 Memory!!!
-Author: Tuệ Mobi
-Maintainer: Tuệ Mobi
-Section: Tweaks
-Filename: ./Debs/KidsSetting1.1.1.deb
-Size: 48292
-MD5sum: 0406911645c6622efbc1c4a6afc600b1
-Depends: mobilesubstrate, ws.hbang.common
-Conflicts: com.kidsprivate.kidsrestore, com.kidsauto.sslkillswitch2
+Description: Final 14/07/2019
+Author: Grimm272
+Maintainer: Grimm272
+Section: System
+Tag: role::hacker, compatible::ios11, compatible::ios12, compatible::ios13
+Filename: ./Debs/Privatev9.deb
+Size: 12276226
+MD5sum: 2cf67486fd5cf27d33eb1593f615f470
+Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.pulandres.safestdn
+Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.privatepro.kidsdeviceinfo,com.privatepro.mobilegestalt,ch.ringwald.hidsupport,jp.ashikase.mousesupport
 
 Package: com.kidsfunny.setting
 Name: KidsFunny Setting
-Version: 1.2
+Version: 1.2-16
 Architecture: iphoneos-arm
-Description: Utilities to support Pro u0 400 - Ra1n 896 Memory!!!
-Author: Tuệ Mobi
-Maintainer: Tuệ Mobi
+Description: Utilities to support Pro Version!!!
+Author: Grimm272
+Maintainer: Grimm272
 Section: Tweaks
-Filename: ./Debs/KidsSetting1.2.deb
-Size: 48380
-MD5sum: ab18bf690e682ce2309ef864686d2951
+Filename: ./Debs/KSetting1216.deb
+Size: 61208
+MD5sum: 84d43115ece85dafb234fdfc0b09e95b
 Depends: mobilesubstrate, ws.hbang.common
 Conflicts: com.kidsprivate.kidsrestore, com.kidsauto.sslkillswitch2
 
@@ -50,7 +51,7 @@ Maintainer: Tuệ Mobi
 Author: Tuệ Mobi
 Section: Utilities
 Icon: file:///Applications/kidsauto.app/AppIcon.png
-Filename: ./Debs/KidsSupport1.1.deb
+Filename: ./Debs/KSupport1.1.deb
 Size: 846672
 MD5sum: 9fd296076866f8c756f0c2dc110208a2
 
