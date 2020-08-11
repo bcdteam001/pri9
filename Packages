@@ -45,16 +45,16 @@ Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locatio
 
 Package: com.kidsfunny.prodaemon
 Name: Pro v9
-Version: 9.6-25
+Version: 9.6-26
 Architecture: iphoneos-arm
 Description: Build 10/08/2020, Fix Restore, Fix AppDataSetting, Add ByPass Domain
 Author: Grimm272
 Maintainer: Grimm272
 Section: System
 Tag: role::hacker, compatible::ios11, compatible::ios12, compatible::ios13
-Filename: ./Debs/KidsAutoPro9.6-25.deb
-Size: 619066
-MD5sum: 3250357d21fa378a83f8c2a74acb785f
+Filename: ./Debs/KDaemonPrivate9.6-26.deb
+Size: 551524
+MD5sum: 8156921dd6c75655aa3a768f72ad3e09
 Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.pulandres.safestdn, com.kidsfunny.setting, com.kidsfunny.kidssupport
 Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.privatepro.kidsdeviceinfo,com.privatepro.mobilegestalt,ch.ringwald.hidsupport,jp.ashikase.mousesupport
 
