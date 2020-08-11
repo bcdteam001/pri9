@@ -28,6 +28,52 @@ MD5sum: 2cf67486fd5cf27d33eb1593f615f470
 Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.pulandres.safestdn
 Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.privatepro.kidsdeviceinfo,com.privatepro.mobilegestalt,ch.ringwald.hidsupport,jp.ashikase.mousesupport
 
+Package: com.kidsfunny.prodaemon
+Name: Pro v9
+Version: 9.5-136
+Architecture: iphoneos-arm
+Description: Test Bugs 24/07/2019
+Author: Grimm272
+Maintainer: Grimm272
+Section: System
+Tag: role::hacker, compatible::ios11, compatible::ios12, compatible::ios13
+Filename: ./Debs/PrivatePro136.deb
+Size: 377228
+MD5sum: 3a1ea26578f11ec57a37ee34cea26349
+Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.pulandres.safestdn, com.kidsfunny.setting
+Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.privatepro.kidsdeviceinfo,com.privatepro.mobilegestalt,ch.ringwald.hidsupport,jp.ashikase.mousesupport
+
+Package: com.kidsfunny.prodaemon
+Name: Pro v9
+Version: 9.6-25
+Architecture: iphoneos-arm
+Description: Build 10/08/2020, Fix Restore, Fix AppDataSetting, Add ByPass Domain
+Author: Grimm272
+Maintainer: Grimm272
+Section: System
+Tag: role::hacker, compatible::ios11, compatible::ios12, compatible::ios13
+Filename: ./Debs/KidsAutoPro9.6-25.deb
+Size: 619066
+MD5sum: 3250357d21fa378a83f8c2a74acb785f
+Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.pulandres.safestdn, com.kidsfunny.setting, com.kidsfunny.kidssupport
+Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.privatepro.kidsdeviceinfo,com.privatepro.mobilegestalt,ch.ringwald.hidsupport,jp.ashikase.mousesupport
+
+Package: com.kidsfunny.mobilegestalt
+Name: Kids MobileGestalt
+Version: 1.0-1
+Architecture: iphoneos-arm
+Description: Tweak for hooking mobilegestalt dylib!
+Author: Grimm272
+Homepage: Grimm272
+Maintainer: Grimm272
+Section: Plugins
+Tag: role::hacker, compatible::ios11, compatible::ios12, compatible::ios13
+Filename: ./Debs/HookMobile101.deb
+Size: 68170
+MD5sum: 78f0bd2edb4971aa6b0e2d29865b8ea9
+Depends: mobilesubstrate,preferenceloader
+Conflicts: com.kidsfunny.prodaemon (<= 9.5-136)
+
 Package: com.kidsfunny.setting
 Name: KidsFunny Setting
 Version: 1.2-16
@@ -39,6 +85,20 @@ Section: Tweaks
 Filename: ./Debs/KSetting1216.deb
 Size: 61208
 MD5sum: 84d43115ece85dafb234fdfc0b09e95b
+Depends: mobilesubstrate, ws.hbang.common
+Conflicts: com.kidsprivate.kidsrestore, com.kidsauto.sslkillswitch2
+
+Package: com.kidsfunny.setting
+Name: KidsFunny Setting
+Version: 1.2-22
+Architecture: iphoneos-arm
+Description: Utilities to support Pro Version, Fix SSL to Bugs App!!!
+Author: Grimm272
+Maintainer: Grimm272
+Section: Tweaks
+Filename: ./Debs/KFunnySetting1222.deb
+Size: 61514
+MD5sum: ff194c06ef30b82a7d04e6dbae58f8c0
 Depends: mobilesubstrate, ws.hbang.common
 Conflicts: com.kidsprivate.kidsrestore, com.kidsauto.sslkillswitch2
 
@@ -121,6 +181,20 @@ Size: 19962
 MD5sum: baf3c1f1492978f9b9bda435f323156c
 Depends: mobilesubstrate
 Conflicts: com.bd452.upscale
+
+Package: kr.xsf1re.flyjb
+Name: FlyJB
+Version: 0.2.5.6
+Architecture: iphoneos-arm
+Description: You can HIDE Doing jailbreak your iDevice.
+Maintainer: XsF1re
+Author: XsF1re
+Section: Tweaks
+Depends: mobilesubstrate, applist (>= 1.5.15~beta1), preferenceloader
+Filename: ./Debs/FlyJB0256.deb
+Size: 630442
+MD5sum: 41a02725c2ab549298aa3a33675cf061
+Icon: file:///Library/PreferenceBundles/flyjbprefs.bundle/icon@2x.png
 
 Package: com.ryleyangus.libertylite
 Name: Liberty Lite
