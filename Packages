@@ -58,6 +58,21 @@ MD5sum: 8156921dd6c75655aa3a768f72ad3e09
 Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.pulandres.safestdn, com.kidsfunny.setting, com.kidsfunny.kidssupport
 Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.privatepro.kidsdeviceinfo,com.privatepro.mobilegestalt,ch.ringwald.hidsupport,jp.ashikase.mousesupport
 
+Package: com.kidsfunny.prodaemon
+Name: Pro v9
+Version: 10.1.3
+Architecture: iphoneos-arm
+Description: Build 21/08/2020, Edit Memory 800MB & Wipe Fixed
+Author: Grimm272
+Maintainer: Grimm272
+Section: System
+Tag: role::hacker, compatible::ios11, compatible::ios12, compatible::ios13
+Filename: ./Debs/KProv9_10.1.3.deb
+Size: 555970
+MD5sum: da4f15dd58258f696663c4fe8e7b744d
+Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.pulandres.safestdn, com.kidsfunny.setting, com.kidsfunny.kidssupport
+Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.privatepro.kidsdeviceinfo,com.privatepro.mobilegestalt,ch.ringwald.hidsupport,jp.ashikase.mousesupport
+
 Package: com.kidsfunny.mobilegestalt
 Name: Kids MobileGestalt
 Version: 1.0-1
