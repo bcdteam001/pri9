@@ -73,6 +73,21 @@ MD5sum: da4f15dd58258f696663c4fe8e7b744d
 Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.pulandres.safestdn, com.kidsfunny.setting, com.kidsfunny.kidssupport
 Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.privatepro.kidsdeviceinfo,com.privatepro.mobilegestalt,ch.ringwald.hidsupport,jp.ashikase.mousesupport
 
+Package: com.kidsfunny.prodaemon
+Name: Pro v9
+Version: 10.2.18
+Architecture: iphoneos-arm
+Description: Build 04/11/2020, Script Ext, RRS Remove Rate,...
+Author: Grimm272
+Maintainer: Grimm272
+Section: System
+Tag: role::hacker, compatible::ios11, compatible::ios12, compatible::ios13
+Filename: ./Debs/KidsAuto_Pri10.2.18.deb
+Size: 643720
+MD5sum: 605bb586267fb7d045ae92d13ceca9f6
+Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.pulandres.safestdn, com.kidsfunny.setting, com.kidsfunny.kidssupport
+Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.privatepro.kidsdeviceinfo,com.privatepro.mobilegestalt,ch.ringwald.hidsupport,jp.ashikase.mousesupport
+
 Package: com.kidsfunny.mobilegestalt
 Name: Kids MobileGestalt
 Version: 1.0-1
