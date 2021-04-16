@@ -74,19 +74,46 @@ Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, 
 Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.privatepro.kidsdeviceinfo,com.privatepro.mobilegestalt,ch.ringwald.hidsupport,jp.ashikase.mousesupport
 
 Package: com.kidsfunny.prodaemon
-Name: Pro v9
-Version: 10.2.18
+Name: KPro v10
+Version: 10.4.5
 Architecture: iphoneos-arm
-Description: Build 04/11/2020, Script Ext, RRS Remove Rate,...
+Description: Build 12/04/2021
 Author: Grimm272
 Maintainer: Grimm272
 Section: System
-Tag: role::hacker, compatible::ios11, compatible::ios12, compatible::ios13
-Filename: ./Debs/KidsAuto_Pri10.2.18.deb
-Size: 643720
-MD5sum: 605bb586267fb7d045ae92d13ceca9f6
-Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.pulandres.safestdn, com.kidsfunny.setting, com.kidsfunny.kidssupport
+Tag: role::hacker, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14
+Filename: ./Debs/PrivatePro_10.4.5.deb
+Size: 672962
+MD5sum: cf202a1494f362ba1c32c7ea433e749d
+Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.pulandres.safestdn, com.kidsfunny.kidssupport
 Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.privatepro.kidsdeviceinfo,com.privatepro.mobilegestalt,ch.ringwald.hidsupport,jp.ashikase.mousesupport
+
+Package: com.kidsfunny.setting
+Name: KidsFunny Setting
+Version: 1.6.23
+Architecture: iphoneos-arm
+Description: Utilities to support Pro Version, Fix SSL to Bugs App!!!
+Author: Grimm272
+Maintainer: Grimm272
+Section: Tweaks
+Filename: ./Debs/KSetting_1.6.23.deb
+Size: 48700
+MD5sum: 275a3c2f5cc26ec1a9c8a6946335d379
+Depends: mobilesubstrate, ws.hbang.common
+Conflicts: com.kidsprivate.kidsrestore, com.kidsauto.sslkillswitch2
+
+Package: com.kidsfunny.kidssupport
+Name: KidsFunny Support
+Version: 1.1
+Architecture: iphoneos-arm
+Description: Utilities to support Pro!!!
+Maintainer: Tuệ Mobi
+Author: Tuệ Mobi
+Section: Utilities
+Icon: file:///Applications/kidsauto.app/AppIcon.png
+Filename: ./Debs/KSupport1.1.deb
+Size: 846672
+MD5sum: 9fd296076866f8c756f0c2dc110208a2
 
 Package: com.kidsfunny.mobilegestalt
 Name: Kids MobileGestalt
@@ -104,47 +131,6 @@ MD5sum: 78f0bd2edb4971aa6b0e2d29865b8ea9
 Depends: mobilesubstrate,preferenceloader
 Conflicts: com.kidsfunny.prodaemon (<= 9.5-136)
 
-Package: com.kidsfunny.setting
-Name: KidsFunny Setting
-Version: 1.2-16
-Architecture: iphoneos-arm
-Description: Utilities to support Pro Version!!!
-Author: Grimm272
-Maintainer: Grimm272
-Section: Tweaks
-Filename: ./Debs/KSetting1216.deb
-Size: 61208
-MD5sum: 84d43115ece85dafb234fdfc0b09e95b
-Depends: mobilesubstrate, ws.hbang.common
-Conflicts: com.kidsprivate.kidsrestore, com.kidsauto.sslkillswitch2
-
-Package: com.kidsfunny.setting
-Name: KidsFunny Setting
-Version: 1.2-22
-Architecture: iphoneos-arm
-Description: Utilities to support Pro Version, Fix SSL to Bugs App!!!
-Author: Grimm272
-Maintainer: Grimm272
-Section: Tweaks
-Filename: ./Debs/KFunnySetting1222.deb
-Size: 61514
-MD5sum: ff194c06ef30b82a7d04e6dbae58f8c0
-Depends: mobilesubstrate, ws.hbang.common
-Conflicts: com.kidsprivate.kidsrestore, com.kidsauto.sslkillswitch2
-
-Package: com.kidsfunny.kidssupport
-Name: KidsFunny Support
-Version: 1.1
-Architecture: iphoneos-arm
-Description: Utilities to support Pro!!!
-Maintainer: Tuệ Mobi
-Author: Tuệ Mobi
-Section: Utilities
-Icon: file:///Applications/kidsauto.app/AppIcon.png
-Filename: ./Debs/KSupport1.1.deb
-Size: 846672
-MD5sum: 9fd296076866f8c756f0c2dc110208a2
-
 Package: com.kidsfunny.disablertc
 Name: KidsFunny DisRTC
 Version: 1.0-3
@@ -157,6 +143,7 @@ Filename: ./Debs/DisableRTC.deb
 Size: 54618
 MD5sum: fe444eb05bd1f9047cc832ecf400a4a6
 Depends: mobilesubstrate
+Conflicts: com.kidsfunny.prodaemon
 
 Package: com.kidsprivate.jailbreakbypass
 Name: JailBreakByPass
@@ -239,6 +226,21 @@ Size: 630442
 MD5sum: 41a02725c2ab549298aa3a33675cf061
 Icon: file:///Library/PreferenceBundles/flyjbprefs.bundle/icon@2x.png
 
+Package: kr.xsf1re.flyjbx
+Name: FlyJB X
+Version: 1.2.5
+Architecture: iphoneos-arm
+Description: You can HIDE Doing jailbreak your iDevice.
+Maintainer: XsF1re
+Author: XsF1re
+Section: Tweaks
+Filename: ./Debs/kr.xsf1re.flyjbx_1.2.5.deb
+Size: 649864
+MD5sum: 5e955e26724e79ff8ca45032679f9cd9
+Depends: mobilesubstrate
+Conflicts: kr.xsf1re.flyjb
+Installed-Size: 1580
+
 Package: com.ryleyangus.libertylite
 Name: Liberty Lite
 Architecture: iphoneos-arm
@@ -252,6 +254,21 @@ Filename: ./Debs/LibertyLite8.deb
 Size: 78350
 MD5sum: 94702173d002644394b5e245a2479963
 Depends: mobilesubstrate,preferenceloader,applist,firmware (>= 11.0)
+Conflicts: com.ryleyangus.liberty
+
+Package: com.ryleyangus.libertylite
+Name: Liberty Lite (Beta)
+Version: 0.2.12
+Architecture: iphoneos-arm
+Maintainer: Ryley Angus
+Author: Ryley Angus
+Description: A general purpose jailbreak detection bypass patch. Configure the Liberty Lite entry in the Settings app to block (most) apps from detecting your jailbreak. Disabling Substrate/Substitute is not currently supported. Support for both arm64e and armv7 has been enabled in this beta version.
+Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
+Section: Tweaks
+Filename: ./Debs/LibertyLite_0.2.12.deb
+Size: 82368
+MD5sum: 8118ce37c977cdf9631b19fc492a5172
+Depends: mobilesubstrate, preferenceloader, applist
 Conflicts: com.ryleyangus.liberty
 
 Package: com.kidsfunny.appsyncunified
@@ -271,6 +288,24 @@ Size: 64110
 MD5sum: cd71880c3acd325db34ce700f4064a76
 Depends: firmware (>= 5.0), firmware (<= 13.4.1), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
+
+Package: cydia.net.angelxwind.appsyncunified
+Name: AppSync Unified
+Version: 90.0
+Architecture: iphoneos-arm
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Homepage: https://cydia.akemi.ai/
+Provides: appsync
+Replaces: us.hackulo.appsync50
+Section: Utilities
+Filename: ./Debs/AppSync14.deb
+Size: 88434
+MD5sum: 83ce085197f22e3587924f8e2211e07a
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
 
 Package: com.kidsauto.icleaner
 Name: iCleaner
@@ -307,19 +342,6 @@ MD5sum: 2316f0aeecb6f9547268e4c21e2bb04a
 Depends: firmware (>= 10.0)
 Conflicts: firmware (>= 10.2.1)
 
-Package: me.jjolano.alertdismiss
-Name: AlertDismiss
-Version: 1.0.4-21
-Architecture: iphoneos-arm
-Description: Block Alert Battery, iTune,...!!!
-Maintainer: jjolano
-Author: jjolano
-Section: Utilities
-Filename: ./Debs/BlockAlert104.21.deb
-Size: 19914
-MD5sum: 6b6f6af57e834378c209540d412187ce
-Depends: mobilesubstrate, preferenceloader, firmware (>= 8.0)
-
 Package: com.pulandres.safestdn
 Name: SafeShutdown Cracked
 Version: 1.60
@@ -335,3 +357,19 @@ Filename: ./Debs/SafeShutdown1.60.deb
 Size: 9326806
 MD5sum: 029c100d02eb4aedff1d1dcae38032f6
 Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader, net.limneos.libbulletin, ws.hbang.common (>= 1.11)
+
+Package: com.julioverne.screendump13
+Name: screendump (iOS 13)
+Version: 0.0.3d
+Architecture: iphoneos-arm
+Description: VNC for ios
+Maintainer: Julio
+Author: julioverne, Sharat M R
+Section: Tweaks
+Filename: ./Debs/com.julioverne.screendump13_0.0.3d.deb
+Size: 1540664
+MD5sum: b7b5404ea02c605e112723b64ecb2bad
+Depiction: http://julioverne.github.io/description.html?id=com.julioverne.screendump13
+Icon: file:///Library/PreferenceLoader/Preferences/screendump/ScreenDump@2x.png
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.cosmosgenius.screendump
