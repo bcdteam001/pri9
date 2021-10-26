@@ -157,45 +157,6 @@ MD5sum: 77941ab73558f25d07ebffc7ae1744d0
 Depends: mobilesubstrate
 Conflicts: com.nablac0d3.sslkillswitch,com.nablac0d3.sslkillswitch2,com.kidsauto.sslkillswitch,com.isecpartners.nabla.sslkillswitch
 
-Package: ch.ringwald.hidsupport
-Name: Hid-Support
-Version: 1.4.3
-Architecture: iphoneos-arm
-Maintainer: Matthias Ringwald
-Author: Matthias Ringwald
-Section: Plugins
-Tag: role::developer
-Filename: ./Debs/HidSupport.deb
-Size: 43542
-MD5sum: 5e6361dd4ad43dc79469db8861480d67
-Depends: mobilesubstrate, com.rpetrich.rocketbootstrap
-
-Package: jp.ashikase.mousesupport
-Name: MouseSupport
-Version: 1:2.1
-Architecture: iphoneos-arm
-Description: Pointer and external input extension!!!
-Section: System
-Tag: role::hacker
-Filename: ./Debs/MouseSupport.deb
-Size: 24690
-MD5sum: 746e24eb06def1cd4229384a213765f1
-Depends: mobilesubstrate, com.rpetrich.rocketbootstrap, preferenceloader, applist, ch.ringwald.hidsupport (>= 1.3.3)
-
-Package: com.kidsauto.sslkillswitch2
-Name: SSLKillSwitch 2
-Architecture: iphoneos-arm
-Version: 2.0.2
-Description: Blackbox tool to disable SSL certificate validation - including certificate pinning - within iOS and OS X Apps.
-Maintainer: Alban Diquet <nabla.c0d3@gmail.com>
-Author: Alban Diquet <nabla.c0d3@gmail.com>
-Section: Tweaks
-Filename: ./Debs/SslKill_812.deb
-Size: 10614
-MD5sum: ac6507e87c89383090384f9fd3a21d86
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.nablac0d3.sslkillswitch,com.nablac0d3.sslkillswitch2,com.isecpartners.nabla.sslkillswitch
-
 Package: com.hackyouriphone.upscale
 Name: Upscale
 Version: 0.0.1
@@ -326,22 +287,6 @@ MD5sum: e55286a7f39503142579f145fe60a4ed
 Pre-Depends: firmware (>= 4.0), apt | apt7, findutils, shell-cmds
 Conflicts: org.altervista.exilecom.icleaner
 
-Package: com.kidsprivate.remover103
-Name: Remover 10.2
-Version: 1.0.3
-Architecture: iphoneos-arm
-Description: A Cydia Eraser replacement (iOS 10-10.2) - The icon is made by Dennis Bednarz.
-Maintainer: pwn20wnd
-Author: pwn20wnd & coolstarorg
-Sponsor: GitHub.com <github.com>
-Section: Utilities
-Tag: role::hacker, compatible::ios10
-Filename: ./Debs/Remover103.deb
-Size: 198306
-MD5sum: 2316f0aeecb6f9547268e4c21e2bb04a
-Depends: firmware (>= 10.0)
-Conflicts: firmware (>= 10.2.1)
-
 Package: com.pulandres.safestdn
 Name: SafeShutdown Cracked
 Version: 1.60
@@ -373,3 +318,25 @@ Depiction: http://julioverne.github.io/description.html?id=com.julioverne.screen
 Icon: file:///Library/PreferenceLoader/Preferences/screendump/ScreenDump@2x.png
 Depends: mobilesubstrate, preferenceloader
 Conflicts: com.cosmosgenius.screendump
+
+Author: akusio
+Maintainer: ichitaso
+Name: KernBypass (Unofficial)
+Package: jp.akusio.kernbypass-unofficial
+Pre-Depends: firmware (>= 12.0), firmware (<< 15.0)
+Depends: mobilesubstrate, preferenceloader
+Conflicts: jp.akusio.kernbypass, com.apple.memecity
+Replaces: jp.akusio.kernbypass-unofficial
+Section: System
+Architecture: iphoneos-arm
+Description: kernel level jailbreak detection bypass.
+Depiction: https://cydia.ichitaso.com/depiction/kernbypass.html
+Homepage: https://ichitaso.com
+dev: akusio, Misty, ichitaso, XsF1re 
+Tag: purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14
+Icon: file:///Library/PreferenceBundles/KernBypassPrefs.bundle/icon@2x.png
+Version: 0.0.5
+Installed-Size: 920
+Filename: ./Debs/jp.akusio.kernbypass-unofficial_0.0.5.deb
+Size: 144922
+MD5sum: 88664e2a63933c4ba6c58a13936d4299
